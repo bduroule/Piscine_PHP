@@ -1,0 +1,128 @@
+
+.head_t{
+    margin: auto;
+    height: 23vw;
+  }
+  img{
+      width: 22vw;
+      height: 20vw;
+      border-radius: 10px;
+      left: 10vw;
+  }
+  h1{
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    top: 3vw;
+    right: 20vw;
+    font-size: 4vw;
+  }
+  .tab{
+    margin: auto;
+  }
+  td{
+    position: relative;
+  }
+  .other_nm{
+    background-color: #ABEBC6;
+    position: relative;
+    width: 4vw;
+    height: 5vw;
+  }
+  .symbole{
+    font-size: 1.75vw;
+    text-align: center;
+    line-height: 5vw;
+    vertical-align: middle;
+  }
+  .symbole_n{
+    font-size: 1.3vw;
+    text-align: center;
+    line-height: 5vw;
+    vertical-align: middle;
+  }
+  .name{
+    font-size: 0.8vw;
+    position: absolute;
+    top:0;
+    right:0;
+    text-align: left;
+  }
+  .poid{
+    font-size: 0.7vw;
+    position: absolute;
+    top:0;
+    right:0;
+    text-align: left;
+  }
+  .id{
+    font-size: 0.7vw;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+  }
+  .alca_ter{
+    background-color: #F9E79F;
+    position: relative;
+    width: 4vw;
+    height: 5vw;
+  }
+  .alcalin{
+    background-color: #CD6155;
+    position: relative;
+    width: 4vw;
+    height: 5vw;
+  }
+  .tr_met{
+    background-color:#F5B7B1;
+    position: relative;
+    width: 4vw;
+    height: 5vw;
+  }
+  .n_class{
+    background-color:#F2F3F4;
+    position: relative;
+    width: 4vw;
+    height: 5vw;
+  }
+  .met_pauvre{
+    background-color:#D7DBDD;
+    position: relative;
+    width: 4vw;
+    height: 5vw;
+  }
+  .metaloid{
+    background-color:#F0B27A;
+    position: relative;
+    width: 4vw;
+    height: 5vw;
+  }
+  .halo{
+    background-color:#F9E79F;
+    position: relative;
+    width: 4vw;
+    height: 5vw;
+  }
+  .gaz_noble{
+    background-color:#AED6F1;
+    position: relative;
+    width: 4vw;
+    height: 5vw;
+  }
+  .act{
+    background-color: #BB8FCE;
+    position: relative;
+    width: 4vw;
+    height: 5vw;
+  }
+  .lant{
+    background-color: #D7BDE2;
+    position: relative;
+    width: 4vw;
+    height: 5vw;
+  }
+  .all_tab{
+      margin: auto;
+      background: #E5E7E9;
+      border-radius: 10px;
+}

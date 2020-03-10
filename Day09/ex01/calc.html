@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background: linear-gradient(90deg, rgb(78, 104, 160), rgb(199, 75, 85));
+            }
+            .center{
+                position: absolute;
+                left: 60px;
+                top: 85px;
+            }
+            .content{
+                width: 500px;
+                height: 200px;
+                background-color: rgb(48, 46, 46);
+                position: relative;
+                border-radius: 5px;
+                border: solid rgb(66, 60, 60);
+                margin: auto;
+                margin-top: 20%;
+                margin-bottom: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+        <div class="center">
+        <input type="text" id="number1">
+        <select id="operateur">
+            <option value="0">+</option>
+            <option value="1">-</option>
+            <option value="2">*</option>
+            <option value="3">/</option>
+            <option value="4">%</option>
+        </select>
+        <input type="text" id="number2">
+        <input type="submit" value="Try me!" onclick = "resultat69()">
+        </div>
+        </div>
+        <script>
+        setInterval(function() {alert('Please, use me...'); }, 30000);
+        </script>
+        <script>
+            function resultat69()
+            {
+                var index = document.getElementById("operateur");
+                var op = index.options[index.selectedIndex].value
+                var option = document.getElementById("operateur");
+                var ope = option[op].text;
+                var res;
+                var nb1 = document.getElementById("number1").value;
+                var nb2 = document.getElementById("number2").value;
+
+                if (!nb1 || !nb2)
+                    alert('Error :(');
+                else
+                {
+                    nb1 = parseInt(nb1);
+                    nb2 = parseInt(nb2);
+                    if (nb1 < 0 || nb2 < 0)
+                        alert('Error :(');
+                    else
+                    {
+                        if (ope == '+')
+                            res = nb1 + nb2;
+                        if (ope == '-')
+                            res = nb1 - nb2;
+                        if (ope == '*')
+                            res = nb1 * nb2;
+                        if (ope == '/')
+                        {
+                            if (nb2 == 0)
+                                res = "It's over 9000!";
+                            else
+                                res = nb1 / nb2;
+                        }
+                        if (ope == '%')
+                        {
+                            if (nb2 == 0)
+                                res = "It's over 9000!";
+                            else
+                                res = nb1 % nb2;
+                        }
+                    console.log(res);
+                alert(res);
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>

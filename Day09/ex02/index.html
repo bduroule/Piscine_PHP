@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style>
+            body{
+                background: linear-gradient(90deg, rgb(241, 196, 15), rgb(233, 218, 239));
+            }
+            .global{
+                width: 75%;
+                height: 850px;
+                border-radius: 5px;
+                background-color: #F8F9F9; 
+                margin: auto;
+            }
+            .ft_list{
+                width: 40px;
+                height: 30px;
+            }
+            .list {
+                text-align: center;
+                font-size: 150%;
+            }
+            button{
+                margin-left: 25px;
+                margin-top: 25px; 
+                width:85px;
+	            height:85px;
+	            background:#fafafa;
+	            box-shadow:2px 2px 8px #aaa;
+	            font:bold 13px Arial;
+	            border-radius:50%;
+	            color:#555;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="global">
+         <button id="new" onclick="add()">New</button>
+        <div class="list" id="ft_list">
+        </div></div>
+        <script src="todo.js"></script>
+    </body>
+</html>

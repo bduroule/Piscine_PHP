@@ -1,0 +1,991 @@
+<!-- *********************************************************************** -->
+<!--                                                        LE - /           -->
+<!--                                                            /            -->
+<!-- mendeleiev.html                                  .::    .:/ .      .::  -->
+<!--                                               +:+:+   +:    +:  +:+:+   -->
+<!-- By: beduroul <marvin@le-101.fr>                +:+   +:    +:    +:+    -->
+<!--                                               #+#   #+    #+    #+#     -->
+<!-- Created: 2019/06/04 19:06:35 by beduroul     #+#   ##    ##    #+#      -->
+<!-- Updated: 2019/06/04 19:06:38 by beduroul    ###    #+. /#+    ###.fr    -->
+<!--                                                       /                 -->
+<!--                                                      /                  -->
+<!-- *********************************************************************** -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+        .head_t{
+          margin: auto;
+        }
+        h1{
+          text-align: center;
+          display: inline-block;
+          position: absolute;
+          top: 100px;
+          right: 900px;
+          font-size: 250%;
+        }
+        .tab{
+          margin: auto;
+        }
+        td{
+          position: relative;
+        }
+        .other_nm{
+          background-color: #ABEBC6;
+          position: relative;
+          width: 70px;
+          height: 90px;
+        }
+        .symbole{
+          font-size: 180%;
+          text-align: center;
+          line-height: 90px;
+          vertical-align: middle;
+        }
+        .symbole_n{
+          font-size: 140%;
+          text-align: center;
+          line-height: 90px;
+          vertical-align: middle;
+        }
+        .name{
+          font-size: 90%;
+          position: absolute;
+          top:0;
+          right:0;
+          text-align: left;
+        }
+        .poid{
+          font-size: 70%;
+          position: absolute;
+          top:0;
+          right:0;
+          text-align: left;
+        }
+        .id{
+          font-size: 50%;
+          position: absolute;
+          bottom: 5px;
+          left: 5px;
+        }
+        .alca_ter{
+          background-color: #F9E79F;
+          position: relative;
+          width: 70px;
+          height: 90px;
+        }
+        .alcalin{
+          background-color: #CD6155;
+          position: relative;
+          width: 70px;
+          height: 90px;
+        }
+        .tr_met{
+          background-color:#F5B7B1;
+          position: relative;
+          width: 70px;
+          height: 90px;
+        }
+        .n_class{
+          background-color:#F2F3F4;
+          position: relative;
+          width: 70px;
+          height: 90px;
+        }
+        .met_pauvre{
+          background-color:#D7DBDD;
+          position: relative;
+          width: 70px;
+          height: 90px;
+        }
+        .metaloid{
+          background-color:#F0B27A;
+          position: relative;
+          width: 70px;
+          height: 90px;
+        }
+        .halo{
+          background-color:#F9E79F;
+          position: relative;
+          width: 70px;
+          height: 90px;
+        }
+        .gaz_noble{
+          background-color:#AED6F1;
+          position: relative;
+          width: 70px;
+          height: 90px;
+        }
+        .act{
+          background-color: #BB8FCE;
+          position: relative;
+          width: 70px;
+          height: 90px;
+        }
+        .lant{
+          background-color: #D7BDE2;
+          position: relative;
+          width: 70px;
+          height: 90px;
+        }
+      </style>
+    </head>
+    <body>
+      <title>mendeleiev</title>
+      <div class="head_t">
+        <img src="https://i0.wp.com/lemondeetnous.cafe-sciences.org/wp-content/uploads/sites/4/2019/03/Dmitri_Mendeleev.jpg?resize=328%2C290&ssl=1"></img>  
+        <h1>tableau</h1>
+      </div> 
+      <div class="tab">
+            <table>
+                    <tr contenteditable="true">
+                      <td>
+                          <div class="other_nm">
+                              <div class="id">1</div>
+                              <div class="symbole">H</div>
+                              <div class="poid">1,007975</div>
+                      </div></td>
+                      <td colspan="16"></td>
+                      <td><div class="gaz_noble">
+                            <div class="id">2</div>
+                            <div class="symbole">He</div>
+                            <div class="poid">4,002602</div>
+                      </div></td>
+                    </tr>
+                    <tr contenteditable="true">
+                      <td>
+                          <div class="alcalin">
+                              <div class="id">3</div>
+                              <div class="symbole">Li</div>
+                              <div class="poid">6,9395</div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="alca_ter">
+                          <div class="id">4</div>
+                          <div class="symbole">Be</div>
+                          <div class="poid">9,0121831</div>
+                        </div>
+                      </td>
+                      <td colspan="10"></td>
+                      <td>
+                          <div class="metaloid">
+                              <div class="id">5</div>
+                              <div class="symbole">B</div>
+                              <div class="poid">10,8135</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="other_nm">
+                              <div class="id">6</div>
+                              <div class="symbole">C</div>
+                              <div class="poid">12,0106</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="other_nm">
+                              <div class="id">7</div>
+                              <div class="symbole">N</div>
+                              <div class="poid">18,9984316</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="other_nm">
+                              <div class="id">8</div>
+                              <div class="symbole">O</div>
+                              <div class="poid">15,99940</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="halo">
+                              <div class="id">9</div>
+                              <div class="symbole">F</div>
+                              <div class="poid">18,9984316</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="gaz_noble">
+                              <div class="id">10</div>
+                              <div class="symbole">Ne</div>
+                              <div class="poid">20,1797</div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr contenteditable="true">
+                      <td>
+                          <div class="alcalin">
+                              <div class="id">11</div>
+                              <div class="symbole">Na</div>
+                              <div class="poid">22,98976928</div>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="alca_ter">
+                          <div class="id">12</div>
+                          <div class="symbole">Mg</div>
+                          <div class="poid">24,3055</div>
+                        </div>
+                      </td>
+                      <td colspan="10"></td>
+                      <td>
+                          <div class="met_pauvre">
+                              <div class="id">13</div>
+                              <div class="symbole">Al</div>
+                              <div class="poid">26,9815385</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="metaloid">
+                              <div class="id">14</div>
+                              <div class="symbole">Si</div>
+                              <div class="poid">28,085(1)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="other_nm">
+                              <div class="id">15</div>
+                              <div class="symbole">P</div>
+                              <div class="poid">30,97376200</div>
+                        </div>
+                      </td>
+                      <td><div class="other_nm">
+                          <div class="id">16</div>
+                          <div class="symbole">S</div>
+                          <div class="poid">32,0675</div>
+                    </div></td>
+                      <td><div class="halo">
+                          <div class="id">17</div>
+                          <div class="symbole">Cl</div>
+                          <div class="poid">35,4515</div>
+                    </div></td>
+                      <td>
+                          <div class="gaz_noble">
+                              <div class="id">18</div>
+                              <div class="symbole">Ar</div>
+                              <div class="poid">39,948(1)</div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr contenteditable="true">
+                      <td><div class="alcalin">
+                          <div class="id">19</div>
+                          <div class="symbole">K</div>
+                          <div class="poid">39,0983(1)</div>
+                    </div></td>
+                      <td>
+                          <div class="alca_ter">
+                              <div class="id">20</div>
+                              <div class="symbole">Ca</div>
+                              <div class="poid">40,078(4)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="tr_met">
+                              <div class="id">21</div>
+                              <div class="symbole">Sc</div>
+                              <div class="poid">44,955908(5)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="tr_met">
+                              <div class="id">22</div>
+                              <div class="symbole">Ti</div>
+                              <div class="poid">47,867(1)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="tr_met">
+                              <div class="id">23</div>
+                              <div class="symbole">V</div>
+                              <div class="poid">50,9415(1)</div>
+                        </div>
+                      </td>
+                      <td><div class="tr_met">
+                          <div class="id">24</div>
+                          <div class="symbole">Cr</div>
+                          <div class="poid">51,9961(6)</div>
+                    </div></td>
+                      <td><div class="tr_met">
+                          <div class="id">25</div>
+                          <div class="symbole">Mn</div>
+                          <div class="poid">54,938044</div>
+                    </div></td>
+                      <td>
+                          <div class="tr_met">
+                              <div class="id">26</div>
+                              <div class="symbole">Fe</div>
+                              <div class="poid">55,845 (2)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="tr_met">
+                              <div class="id">27</div>
+                              <div class="symbole">Co</div>
+                              <div class="poid">58,933194</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="tr_met">
+                              <div class="id">28</div>
+                              <div class="symbole">Ni</div>
+                              <div class="poid">58,6934 (4)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="tr_met">
+                              <div class="id">29</div>
+                              <div class="symbole">Cu</div>
+                              <div class="poid">63,546 (3)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="met_pauvre">
+                              <div class="id">30</div>
+                              <div class="symbole">Zn</div>
+                              <div class="poid">65,38 (2)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="met_pauvre">
+                              <div class="id">31</div>
+                              <div class="symbole">Ga</div>
+                              <div class="poid">69,723 (1)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="metaloid">
+                              <div class="id">32</div>
+                              <div class="symbole">Ge</div>
+                              <div class="poid">72,630 (8)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="metaloid">
+                              <div class="id">33</div>
+                              <div class="symbole">As</div>
+                              <div class="poid">74,921565</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="other_nm">
+                              <div class="id">34</div>
+                              <div class="symbole">Se</div>
+                              <div class="poid">78,971 (8)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="halo">
+                              <div class="id">35</div>
+                              <div class="symbole">BR</div>
+                              <div class="poid">79,904</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="gaz_noble">
+                              <div class="id">36</div>
+                              <div class="symbole">Kr</div>
+                              <div class="poid">83,798 (2)</div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr contenteditable="true">
+                      <td>
+                        <div class="alcalin">
+                          <div class="id">37</div>
+                          <div class="symbole">Rb</div>
+                          <div class="poid">35,4678 (3)</div>
+                    </div>
+                      </td>
+                      <td>
+                        <div class="alca_ter">
+                          <div class="id">38</div>
+                          <div class="symbole">Sr</div>
+                          <div class="poid">87,62 (1)</div>
+                    </div>
+                      </td>
+                      <td>
+                        <div class="tr_met">
+                          <div class="id">39</div>
+                          <div class="symbole">Y</div>
+                          <div class="poid">88,90584</div>
+                    </div>
+                      </td>
+                      <td>
+                        <div class="tr_met">
+                          <div class="id">40</div>
+                          <div class="symbole">Zr</div>
+                          <div class="poid">91,224 (2)</div>
+                    </div>
+                      </td>
+                      <td>
+                        <div class="tr_met">
+                          <div class="id">41</div>
+                          <div class="symbole">Nb</div>
+                          <div class="poid">92,90637</div>
+                    </div>
+                      </td>
+                      <td>
+                        <div class="tr_met">
+                          <div class="id">42</div>
+                          <div class="symbole">Mo</div>
+                          <div class="poid">95,95 (1)</div>
+                    </div>
+                      </td>
+                      <td>
+                        <div class="tr_met">
+                          <div class="id">43</div>
+                          <div class="symbole">Tc</div>
+                          <div class="poid">[43]</div>
+                    </div>
+                      </td>
+                      <td>
+                        <div class="tr_met">
+                          <div class="id">44</div>
+                          <div class="symbole">Tc</div>
+                          <div class="poid">101,07 (2)</div>
+                    </div>
+                      </td>
+                      <td>
+                        <div class="tr_met">
+                          <div class="id">45</div>
+                          <div class="symbole">Rh</div>
+                          <div class="poid">102,90550</div>
+                    </div>
+                      </td>
+                      <td>
+                        <div class="tr_met">
+                          <div class="id">46</div>
+                          <div class="symbole">Pd</div>
+                          <div class="poid">106,42 (1)</div>
+                    </div>
+                      </td>
+                      <td>
+                        <div class="tr_met">
+                          <div class="id">47</div>
+                          <div class="symbole">Ag</div>
+                          <div class="poid">107,8682</div>
+                    </div>
+                      </td>
+                      <td>
+                        <div class="met_pauvre">
+                          <div class="id">48</div>
+                          <div class="symbole">Cd</div>
+                          <div class="poid">112,414 (4)</div>
+                    </div>
+                      </td>
+                      <td>                     
+                       <div class="met_pauvre">
+                        <div class="id">49</div>
+                        <div class="symbole">In</div>
+                        <div class="poid">114,818 (1)</div>
+                  </div></td>
+                      <td>
+                          <div class="met_pauvre">
+                              <div class="id">50</div>
+                              <div class="symbole">Sn</div>
+                              <div class="poid">118,710 (7)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="metaloid">
+                              <div class="id">51</div>
+                              <div class="symbole">Sb</div>
+                              <div class="poid">121,760 (1)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="metaloid">
+                              <div class="id">52</div>
+                              <div class="symbole">Te</div>
+                              <div class="poid">127,60 (3)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="halo">
+                              <div class="id">53</div>
+                              <div class="symbole">I</div>
+                              <div class="poid">126,90447</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="gaz_noble">
+                              <div class="id">54</div>
+                              <div class="symbole">Xe</div>
+                              <div class="poid">131,293 (6)</div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr contenteditable="true">
+                      <td>
+                          <div class="alcalin">
+                              <div class="id">55</div>
+                              <div class="symbole">Cs</div>
+                              <div class="poid">32,905452</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="alca_ter">
+                              <div class="id">56</div>
+                              <div class="symbole">Ba</div>
+                              <div class="poid">137,327 (7)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="act">
+                              <div class="name">Lanthanides</div>
+                              <div class="symbole_n">57 - 71</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="tr_met">
+                              <div class="id">72</div>
+                              <div class="symbole">Hf</div>
+                              <div class="poid">178,49 (2)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="tr_met">
+                              <div class="id">73</div>
+                              <div class="symbole">Ta</div>
+                              <div class="poid">180,94788</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="tr_met">
+                              <div class="id">74</div>
+                              <div class="symbole">W</div>
+                              <div class="poid">183,84 (1)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="tr_met">
+                              <div class="id">75</div>
+                              <div class="symbole">Re</div>
+                              <div class="poid">186,207 (1)</div>
+                        </div>
+                      </td>
+                      <td> 
+                        <div class="tr_met">
+                          <div class="id">76</div>
+                          <div class="symbole">Os</div>
+                          <div class="poid">190,23 (3)</div>
+                    </div></td>
+                      <td>
+                          <div class="tr_met">
+                              <div class="id">77</div>
+                              <div class="symbole">Ir</div>
+                              <div class="poid">192,217 (3)</div>
+                        </div>
+                      </td>
+                      <td>                         
+                         <div class="tr_met">
+                          <div class="id">78</div>
+                          <div class="symbole">Pt</div>
+                          <div class="poid">195,084 (9)</div>
+                    </div></td>
+                      <td>
+                          <div class="tr_met">
+                              <div class="id">79</div>
+                              <div class="symbole">Au</div>
+                              <div class="poid">196,966569</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="met_pauvre">
+                              <div class="id">80</div>
+                              <div class="symbole">Hg</div>
+                              <div class="poid">200,592 (3)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="met_pauvre">
+                              <div class="id">81</div>
+                              <div class="symbole">Ti</div>
+                              <div class="poid">204,3835</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="met_pauvre">
+                              <div class="id">82</div>
+                              <div class="symbole">Pb</div>
+                              <div class="poid">207,2 (1)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="met_pauvre">
+                              <div class="id">83</div>
+                              <div class="symbole">Bi</div>
+                              <div class="poid">208,98040</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="met_pauvre">
+                              <div class="id">84</div>
+                              <div class="symbole">Po</div>
+                              <div class="poid">[209]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="metaloid">
+                              <div class="id">85</div>
+                              <div class="symbole">At</div>
+                              <div class="poid">[210]</div>
+                        </div>
+                    </td>
+                      <td>
+                          <div class="gaz_noble">
+                              <div class="id">86</div>
+                              <div class="symbole">Rn</div>
+                              <div class="poid">[222]</div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr contenteditable="true">
+                      <td>                          
+                        <div class="alcalin">
+                          <div class="id">87</div>
+                          <div class="symbole">Fr</div>
+                          <div class="poid">[223]</div>
+                    </div></td>
+                      <td>
+                          <div class="alca_ter">
+                              <div class="id">88</div>
+                              <div class="symbole">Ra</div>
+                              <div class="poid">[226]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="lant">
+                              <div class="name">Actining</div>
+                              <div class="symbole_n">89-103</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="tr_met">
+                              <div class="id">104</div>
+                              <div class="symbole">Rf</div>
+                              <div class="poid">[267]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="tr_met">
+                              <div class="id">105</div>
+                              <div class="symbole">Db</div>
+                              <div class="poid">[268]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="tr_met">
+                              <div class="id">106</div>
+                              <div class="symbole">Sg</div>
+                              <div class="poid">[269]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="tr_met">
+                              <div class="id">107</div>
+                              <div class="symbole">Bh</div>
+                              <div class="poid">[270]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="tr_met">
+                              <div class="id">108</div>
+                              <div class="symbole">Hs</div>
+                              <div class="poid">[277]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="n_class">
+                              <div class="id">109</div>
+                              <div class="symbole">Mt</div>
+                              <div class="poid">[278]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="n_class">
+                              <div class="id">110</div>
+                              <div class="symbole">Ds</div>
+                              <div class="poid">[281]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="n_class">
+                              <div class="id">111</div>
+                              <div class="symbole">Rg</div>
+                              <div class="poid">[282]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="tr_met">
+                              <div class="id">112</div>
+                              <div class="symbole">Cn</div>
+                              <div class="poid">[285]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="n_class">
+                              <div class="id">113</div>
+                              <div class="symbole">Nh</div>
+                              <div class="poid">[286]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="n_class">
+                              <div class="id">114</div>
+                              <div class="symbole">Fl</div>
+                              <div class="poid">[289]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="n_class">
+                              <div class="id">115</div>
+                              <div class="symbole">Mc</div>
+                              <div class="poid">[289]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="n_class">
+                              <div class="id">116</div>
+                              <div class="symbole">Lv</div>
+                              <div class="poid">[293]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="n_class">
+                              <div class="id">117</div>
+                              <div class="symbole">Ts</div>
+                              <div class="poid">[294]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="n_class">
+                              <div class="id">118</div>
+                              <div class="symbole">Og</div>
+                              <div class="poid">[294]</div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr contenteditable="true">
+                      <td colspan="18" height="32px"></td>
+                    </tr>
+                    <tr contenteditable="true">
+                      <td colspan="3"></td>
+                      <td>
+                          <div class="lant">
+                              <div class="id">57</div>
+                              <div class="symbole">La</div>
+                              <div class="poid">138,90547</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="lant">
+                              <div class="id">58</div>
+                              <div class="symbole">Ce</div>
+                              <div class="poid">140,116 (1)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="lant">
+                              <div class="id">59</div>
+                              <div class="symbole">Pr</div>
+                              <div class="poid">140,90766</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="lant">
+                              <div class="id">60</div>
+                              <div class="symbole">Nd</div>
+                              <div class="poid">144,242 (3)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="lant">
+                              <div class="id">61</div>
+                              <div class="symbole">Pm</div>
+                              <div class="poid">145</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="lant">
+                              <div class="id">62</div>
+                              <div class="symbole">Sm</div>
+                              <div class="poid">150,36 (2)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="lant">
+                              <div class="id">63</div>
+                              <div class="symbole">Eu</div>
+                              <div class="poid">151,964 (1)</div>
+                        </div>
+                      </td>
+                      <td>                        
+                        <div class="lant">
+                          <div class="id">64</div>
+                          <div class="symbole">Gb</div>
+                          <div class="poid">157,25 (3)</div>
+                    </div></td>
+                      <td>                         
+                         <div class="lant">
+                          <div class="id">65</div>
+                          <div class="symbole">Tb</div>
+                          <div class="poid">158,92535</div>
+                    </div></td>
+                      <td>
+                          <div class="lant">
+                              <div class="id">66</div>
+                              <div class="symbole">Dy</div>
+                              <div class="poid">162,500 (1)</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="lant">
+                              <div class="id">67</div>
+                              <div class="symbole">Ho</div>
+                              <div class="poid">164,93033</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="lant">
+                              <div class="id">68</div>
+                              <div class="symbole">Er</div>
+                              <div class="poid">168,93422</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="lant">
+                              <div class="id">69</div>
+                              <div class="symbole">Tm</div>
+                              <div class="poid">168,93422</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="lant">
+                              <div class="id">70</div>
+                              <div class="symbole">Yb</div>
+                              <div class="poid">173,045</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="lant">
+                              <div class="id">71</div>
+                              <div class="symbole">Lu</div>
+                              <div class="poid">174,9668</div>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr contenteditable="true">
+                      <td colspan="3"></td>
+                      <td>
+                          <div class="act">
+                              <div class="id">89</div>
+                              <div class="symbole">Ac</div>
+                              <div class="poid">[227]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="act">
+                              <div class="id">90</div>
+                              <div class="symbole">Th</div>
+                              <div class="poid">232,0377</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="act">
+                              <div class="id">91</div>
+                              <div class="symbole">Pa</div>
+                              <div class="poid">231,03588</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="act">
+                              <div class="id">92</div>
+                              <div class="symbole">U</div>
+                              <div class="poid">238,02891</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="act">
+                              <div class="id">93</div>
+                              <div class="symbole">Np</div>
+                              <div class="poid">[237]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="act">
+                              <div class="id">94</div>
+                              <div class="symbole">Pu</div>
+                              <div class="poid">[244]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="act">
+                              <div class="id">95</div>
+                              <div class="symbole">Am</div>
+                              <div class="poid">[243]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="act">
+                              <div class="id">96</div>
+                              <div class="symbole">Cm</div>
+                              <div class="poid">[247]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="act">
+                              <div class="id">97</div>
+                              <div class="symbole">Bk</div>
+                              <div class="poid">[247]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="act">
+                              <div class="id">98</div>
+                              <div class="symbole">Cf</div>
+                              <div class="poid">[251]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="act">
+                              <div class="id">99</div>
+                              <div class="symbole">Es</div>
+                              <div class="poid">[252]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="act">
+                              <div class="id">100</div>
+                              <div class="symbole">Fm</div>
+                              <div class="poid">[257]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="act">
+                              <div class="id">101</div>
+                              <div class="symbole">Md</div>
+                              <div class="poid">[258]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="act">
+                              <div class="id">102</div>
+                              <div class="symbole">No</div>
+                              <div class="poid">[259]</div>
+                        </div>
+                      </td>
+                      <td>
+                          <div class="act">
+                              <div class="id">103</div>
+                              <div class="symbole">Lr</div>
+                              <div class="poid">[266]</div>
+                        </div>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+    </body>
+</html>

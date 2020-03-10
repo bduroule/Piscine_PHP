@@ -1,0 +1,129 @@
+body{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-color: rgb(206, 206, 206);
+	margin: 0px;
+	padding: 0px;
+}
+.bar{
+	width: 100%;
+	margin-top: -20px;
+	height: 60px;
+	background-color: rgb(70, 70, 70);
+}
+
+nav > ul{
+	width:97%;
+	margin: 20px;
+	padding: 0px;
+}
+nav > ul > li{
+	float: left;
+	position: relative;
+}
+
+nav > ul::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+nav li{
+	list-style-type: none;
+}
+nav{
+	width: 100%;
+	background-color: rgb(70, 70, 70);
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+nav > ul > li > a{
+	padding: 20px 30px;
+	color: white;
+}
+.sub{
+	display: none;
+}
+nav li:hover .sub{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0%;
+	padding: 0px;
+	z-index: 100000;
+}
+nav > ul > li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+.sub li{
+	border-bottom: 1px solid grey;
+}
+.sub li a{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: rgb(255, 255, 255);
+	width: 270px;
+}
+.mconnection{
+	float: right;
+}
+.mpain:hover{
+	border-top: 5px solid rgb(255, 189, 90);
+	background-color: rgb(68, 54, 33);
+}
+.mgarniture:hover{
+	border-top: 5px solid rgb(255, 134, 134);
+	background-color: rgb(80, 40, 40);
+}
+.mhome:hover{
+	border-top: 5px solid rgb(255, 156, 234);
+	background-color: rgb(80, 40, 59);
+}
+.msauce:hover{
+	border-top: 5px solid rgb(130, 188, 255);
+	background-color: rgb(33, 48, 66);
+}
+.mtaille:hover{
+	border-top: 5px solid rgb(132, 253, 142);
+	background-color: rgb(26, 51, 28);
+}
+.mconnection:hover{
+	border-top: 5px solid rgb(255, 120, 10);
+	background-color: rgb(94, 40, 18);
+}
+.mpain .sub{
+	background-color: rgb(46, 46, 46);
+}
+.mgarniture .sub{
+	background-color: rgb(46, 46, 46);
+}
+.msauce .sub{
+	background-color: rgb(46, 46, 46);
+}
+.mtaille .sub{
+	background-color: rgb(46, 46, 46);
+}
+.mconnection .sub{
+	background-color: rgb(46, 46, 46);
+}
+.sub li:hover a{
+	color:rgb(66, 66, 66);
+}
+.mpain .sub li:hover a{
+	color:rgb(175, 175, 175);
+}
+.mgarniture .sub li:hover a{
+	color:rgb(175, 175, 175);
+}
+.msauce .sub li:hover a{
+	color:rgb(175, 175, 175);
+}
+.mtaille .sub li:hover a{
+	color:rgb(175, 175, 175);
+}
+.mconnection .sub li:hover a{
+	color:rgb(175, 175, 175);
+}
+.mhome .sub li:hover a{
+	color:rgb(175, 175, 175);
+}

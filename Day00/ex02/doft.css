@@ -1,0 +1,187 @@
+
+body{
+    background: rgb(80, 80, 80);
+}
+.bod{
+    position: absolute;
+    width: 1920px;
+    height: 900px;
+}
+.h_day{
+    background-color: rgb(144, 144, 144);
+    top: 150%;
+    right: 150%;
+    width: 1421px;
+    height: 141px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px black;
+}
+.obj_1{
+    background: rgb(144, 144, 144);
+    width: 141px;
+    height: 420px;
+    position: absolute;
+    top: 160px;
+    left: 280px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px black;
+}
+.obj_2{
+    background: rgb(144, 144, 144);
+    position: absolute;
+    width: 1022px;
+    height: 583px;
+    top: 160px;
+    left: 449px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px black;
+}
+.obj_3{
+    background: rgb(144, 144, 144);
+    width: 141px;
+    height: 420px;
+    position: absolute;
+    top: 160px;
+    right: 280px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px black;
+}
+.obj_4{
+    background: rgb(135, 254, 143);
+    width: 519px;
+    height: 171px;
+    position: absolute;
+    top: 660px;
+    left: 195px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px black;
+    z-index: 2;
+}
+.slop{
+    width: 450px;
+    position: absolute;
+    top: 15px; 
+}
+.asab{
+    position: absolute;
+    right: 285px;
+    top: 14px;
+}
+.jaco{
+    width: 20px;
+    position: absolute;
+    right: 260px;
+    top: 10px;
+}
+.lulm{
+    width: 20px;
+    position: absolute;
+    right: 260px;
+    top: 115px;
+}
+.cluster{
+    width: 1000px;
+    height: 560px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.arrow{
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    top: 19px;
+    left: 37px;
+}
+.hand{
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    top: 100px;
+    left: 37px;
+}
+.eyes{
+    width: 63px;
+    position: absolute;
+    top: 180px;
+    left: 37px;
+    border: 5px solid red;
+}
+.wapens{
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    top: 260px;
+    left: 37px;
+}
+.chat{
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    top: 330px;
+    left: 37px;
+}
+.book{
+    width: 70px;
+    height: 97px;
+    position: absolute;
+    top: 19px;
+    left: 36px;
+}
+.serv{
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    top: 127px;
+    left: 37px;
+}
+.wall{
+    width: 121px;
+    height: 72px;
+    position: absolute;
+    background-image: url(resources/brick.jpg);
+    background-repeat: repeat;
+    top: 182px;
+    left: 10px;
+}
+.txt_1{
+    font-size: 18px;
+    font-family: Arial;
+    position: absolute;
+    left: 10px;
+    top: 6px;
+}
+.entrez{
+    font-style: bold;
+    font-family: 'Times New Roman';
+    font-size: 40px;
+}
+.italic{
+    font-style: italic;
+}
+input{
+    position: absolute;
+    left: 5px;
+}
+button{
+    position: absolute;
+    right: -17px;
+}
+.ordi{
+    text-shadow: 0.2em 0.3em 0.2em red;
+}
+.ikea{
+    width: 150px;
+    height: 210px;
+    position: absolute;
+    right: 550px;
+    top: 340px;
+}
+.apple{
+    width: 200px;
+    height: 160px;
+    position: absolute;
+    right: 30px;
+    top: 325px;
+}

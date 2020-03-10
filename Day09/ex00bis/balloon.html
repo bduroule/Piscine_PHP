@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #balloon{
+                width: 200px;
+                height: 200px;
+                border-radius: 100%;
+                background-color: red;
+                margin: auto;
+            }
+              </style>
+        <meta charset="utf-8">
+        <title>Ballon</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="balloon" onclick="click_color()" onmouseleave="mouse_color()"></div>
+        <script>
+            var tab = new Array('red', 'green', 'blue');
+            var i = 0;
+
+            function    click_color()
+            {
+                i++;
+                if (i > 2)
+                    i = 0;
+                $('#balloon').css('background-color', tab[i]);
+                $('#balloon').css("width", "+=10");
+                $('#balloon').css("height", "+=10");
+                if ($('#balloon').width() > 420)
+                {
+                    $('#balloon').width(200);
+                    $('#balloon').height(200);
+                }
+            }
+            function    mouse_color()
+            {
+                i--;
+                if (i < 0)
+                    i = 2;
+                $('#balloon').css('background-color', tab[i]);
+                $('#balloon').css("width", "-=5");
+                $('#balloon').css("height", "-=5");
+                if ($('#balloon').width() < 200)
+                {
+                    $('#balloon').width(200);
+                    $('#balloon').height(200);
+                }
+            }
+        </script>
+    </body>
+</html>

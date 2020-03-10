@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #balloon{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        background-color: red;
+		margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id ="balloon"></div>
+    <script>
+		
+		var tab = new Array('red', 'green', 'blue');
+  		var i = 0;
+  		elmt = document.getElementById('balloon');
+  		elmt.onclick = my_function;
+		elmt.onmouseleave = mouse;
+  		function  my_function()
+  		{
+  			change_color();
+			change_s();
+  		}
+  		function change_color()
+  		{
+  		  i++;
+  		  if (i > 2)
+  		  i = 0;
+  		  elmt.style.backgroundColor = tab[i];
+  		}
+		function change_s()
+		{
+			var width = parseInt(elmt.clientWidth, 10);
+    		var height = parseInt(elmt.clientHeight, 10);
+			width += 10;
+			height += 10;
+			if (width > 420)
+			{
+				width = 200;
+				height = 200;
+			}
+			elmt.style.width = width + 'px';
+			elmt.style.height = height + 'px';
+		}
+		function mouse()
+		{
+			change_color_m();
+			change_sm();
+		}
+		function change_color_m()
+  		{
+  		  i--;
+  		  if (i < 0)
+  		  i = 2;
+  		  elmt.style.backgroundColor = tab[i];
+  		}
+		function change_sm()
+		{
+			var width = parseInt(elmt.clientWidth, 10);
+    		var height = parseInt(elmt.clientHeight, 10);
+			if (width > 200)
+			{
+				width -= 5;
+				height -= 5;
+			}
+			elmt.style.width = width + 'px';
+			elmt.style.height = height + 'px';
+		}
+
+    </script>
+  </body>
+</html>

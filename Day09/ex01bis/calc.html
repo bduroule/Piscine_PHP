@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <style>
+            body {
+                background: linear-gradient(90deg, rgb(78, 104, 160), rgb(199, 75, 85));
+            }
+            .center{
+                position: absolute;
+                left: 60px;
+                top: 85px;
+            }
+            .content{
+                width: 500px;
+                height: 200px;
+                background-color: rgb(48, 46, 46);
+                position: relative;
+                border-radius: 5px;
+                border: solid rgb(66, 60, 60);
+                margin: auto;
+                margin-top: 20%;
+                margin-bottom: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="content">
+        <div class="center">
+        <input type="text" id="number1">
+        <select id="ope">
+            <option>+</option>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+            <option>%</option>
+        </select>
+        <input type="text" id="number2">
+        <input type="submit" value="Try me!" onclick = "resultat(this.form)">
+        </div>
+        </div>
+        <script>
+        window.setInterval(function() {alert('Please, use me...'); }, 30000);
+        </script>
+        <script>
+            function resultat()
+            {
+                var res;
+                var ope = $('#ope option:selected').text();
+                var nb1 = parseInt($("#number1").val());
+                var nb2 = parseInt($("#number2").val());
+                if (!Number.isInteger(nb1) || !Number.isInteger(nb2) || nb1 < 0 || nb2 < 0)
+                    alert('Error :(');
+                else
+                {
+                    console.log(ope);
+                    if (ope == '+')
+                        res = nb1 + nb2;
+                    if (ope == '-')
+                        res = nb1 - nb2;
+                    if (ope =='*')
+                        res = nb1 * nb2;
+                    if (ope == '/')
+                    {
+                        console.log(nb2);
+                        if (nb2 == 0)
+                            res = "It's over 9000!";
+                        else
+                            res = nb1 / nb2;
+                    }
+                    if (ope == '%')
+                    {
+                        if (nb2 == 0)
+                            res = "It's over 9000!";
+                        else
+                            res = nb1 % nb2;
+                    }
+                console.log(res);
+                alert(res);
+                }
+            }
+        </script>
